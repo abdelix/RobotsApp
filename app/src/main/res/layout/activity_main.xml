@@ -33,7 +33,9 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="10"
-            android:id="@+id/textView_visor"></TextView>
+            android:gravity="center"
+            android:id="@+id/textView_visor"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"></TextView>
 
 
         <LinearLayout
@@ -44,17 +46,17 @@
             >
 
             <EditText
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:text="RobotName"
                 android:ems="10"
                 android:id="@+id/editText_robotName"
-                android:layout_weight="1" />
+                android:layout_weight="2" />
 
             <Button
                 android:text="@string/button_add_label"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/buttonAdd"
                 android:layout_weight="1"

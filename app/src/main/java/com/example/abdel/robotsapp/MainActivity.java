@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Actualizamos el texto de la MainActivity
-        textView_visor.setText(Arrays.toString(robotList.toArray()));
+        textView_visor.setText(""+robotList.size());
     }
 
     /**
@@ -80,8 +80,8 @@ public class MainActivity extends AppCompatActivity {
         // añadimos el nuevo robot a la lista
         robotList.add(robotName);
         Log.d( ROBOTS_APP_TAG,"Añadiendo nuevo elemento:"+robotName+"...\n"+Arrays.toString(robotList.toArray()));
-        //actualizamos el texto
-        textView_visor.setText(Arrays.toString(robotList.toArray()));
+        // Actualizamos el texto de la MainActivity
+        textView_visor.setText(""+robotList.size());
 
         Toast.makeText(this,R.string.robot_added_succesfully,Toast.LENGTH_SHORT).show();
     }
@@ -103,7 +103,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        textView_visor.setText(Arrays.toString(robotList.toArray()));
+        // Actualizamos el texto de la MainActivity
+        textView_visor.setText(""+robotList.size());
 
     }
 
