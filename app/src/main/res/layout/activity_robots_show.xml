@@ -10,4 +10,15 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.abdel.robotsapp.RobotsShowActivity">
 
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:id="@+id/robots_list_view"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
 </RelativeLayout>
+

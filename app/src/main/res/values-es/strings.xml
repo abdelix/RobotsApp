@@ -3,4 +3,8 @@
 
 
     <string name="list_is_empty">La lista está vacía</string>
+    <string name="button_add_label">Añadir</string>
+    <string name="button_remove_label">Borrar</string>
+    <string name="button_show_label">Mostrar</string>
+    <string name="robot_added_succesfully">Robot añadido satisfactoriamente!!</string>
 </resources>

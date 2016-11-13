@@ -58,14 +58,15 @@
 
             <Button
                 android:text="@string/button_show_label"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/button_show"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="showRobots" />
 
             <Button
                 android:text="@string/button_remove_label"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/button_remove"
                 android:layout_weight="1"
