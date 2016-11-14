@@ -1,8 +1,8 @@
 package com.example.abdel.robotsapp;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
@@ -34,8 +34,7 @@ public class RobotsShowActivity extends AppCompatActivity {
 
         Log.d( MainActivity.ROBOTS_APP_TAG,"Lista Recibida:\n"+ Arrays.toString(robotList.toArray()));
 
-        robotsListAdapter = new ArrayAdapter<String>(this,
-        android.R.layout.simple_list_item_1,robotList);
+        robotsListAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,robotList);
         ListView listView = (ListView) findViewById(R.id.robots_list_view);
         listView.setAdapter(robotsListAdapter);
     }

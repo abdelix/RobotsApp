@@ -1,12 +1,10 @@
 package com.example.abdel.robotsapp;
 
 import android.content.Intent;
-import android.os.Parcelable;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -14,7 +12,6 @@ import android.widget.Toast;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
@@ -98,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
             Log.d( ROBOTS_APP_TAG,"Borrado un elemento");
         }else{
             Log.d( ROBOTS_APP_TAG,"La lista está vacia");
-            // Creamos un toas y lo mostramos
+            // Creamos un toast y lo mostramos
             Toast.makeText(this,R.string.list_is_empty,Toast.LENGTH_SHORT).show();
         }
 
